@@ -515,6 +515,7 @@ body {
   }
   .about__numbers {
     flex: none;
+    padding-left: 0;
   }
 }
 
@@ -550,6 +551,23 @@ body {
   }
   .numbers-about__item:not(:last-child) {
     margin-bottom: 0;
+  }
+}
+@media (max-width: 575px) {
+  .numbers-about__items {
+    align-items: center;
+    flex-direction: column;
+  }
+  .numbers-about__img {
+    max-width: 80px;
+    margin: 0 auto 15px;
+  }
+  .numbers-about__img img {
+    width: 100%;
+    height: auto;
+  }
+  .numbers-about__item:not(:last-child) {
+    margin-bottom: 25px;
   }
 }
 
@@ -757,6 +775,21 @@ body {
     flex: 0 0 330px;
   }
 }
+@media (max-width: 575px) {
+  .rating__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rating__years {
+    margin-bottom: 30px;
+  }
+  .rating__stars {
+    justify-content: center;
+  }
+  .rating__content {
+    flex: none;
+  }
+}
 
 .partners {
   padding-bottom: 120px;
@@ -952,6 +985,14 @@ body {
   }
   .form__button {
     margin: 0 auto 30px;
+  }
+}
+@media (max-width: 575px) {
+  .form__column {
+    flex-direction: column;
+  }
+  .form__input {
+    width: 100%;
   }
 }
 
