@@ -36,7 +36,7 @@ let heroSlider = new Swiper('.hero-slider', {
 	},
 });
 
-var partnersSlider = new Swiper('.partners-slider', {
+let partnersSlider = new Swiper('.partners-slider', {
 	slidesPerView: 'auto',
 	spaceBetween: 0,
 	freeMode: true,
